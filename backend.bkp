@@ -1,0 +1,9 @@
+terraform {
+  backend "s3" {
+    bucket         = "meu_s3_bucket_name"
+    key            = "path_dir_do_meu_terraform.tfstate"
+    region         = "us-east-2"
+    dynamodb_table = "lock_table_tratar_concorrencia"
+    encrypt        = true
+  }
+}
