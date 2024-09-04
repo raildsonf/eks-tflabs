@@ -7,3 +7,4 @@ data "aws_subnet" "selected" {
     values = ["yakdriver"]
   }
 }
+4. criar outro cluster apenas editando o terraform.tfvars
