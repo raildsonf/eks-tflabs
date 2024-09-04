@@ -7,4 +7,4 @@ data "aws_subnet" "selected" {
     values = ["yakdriver"]
   }
 }
-4. criar outro cluster apenas editando o terraform.tfvars
+4. criar outro projeto (ex. investimentos, pix), copiar os arquivos para ele e criar outro cluster apenas editando o terraform.tfvars
